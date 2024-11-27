@@ -11,8 +11,9 @@
 900;1,100..900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Poppins:ital,
 wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,
 900&display=swap"
-      rel="stylesheet"/>
-<title>Login_page</title>
+      rel="stylesheet"
+    />
+    <title>Login_page</title>
   </head>
   <body>
     <header>
@@ -22,15 +23,32 @@ wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,4
       <section>
         <div class="container">
           <div class="info">
-            <h1>Sign in to </h1>
+            <h1>Sign in to</h1>
             <p class="description">Lorem Ipsum is simply</p>
             <p class="if-have-an-account">
               If you don’t have an account register
-              <br>
-              You can   <a href="signup.html">Register here !</a>
+              <br />
+              You can <a href="signup.html">Register here !</a>
             </p>
           </div>
-          <div class="form"></div>
+          <div class="form">
+            <h2>Sign up</h2>
+            <form method="post">
+              <input type="text" placeholder="Enter email or user name" autofocus/>
+              <input type="password" placeholder="Password" >
+              <a href="#">Forget password?</a>
+              <input type="submit" class="login-btn" value="login" >
+            </form>
+            <div class="login-with">
+              <p>or continue with</p>
+              <ul>
+                <li><a href="#"><img src="assets/images/Facebook.png" alt="Facebook"></a></li>
+                                <li><a href="#"><img src="assets/images/apple.png" alt="apple"></a></li>
+                <li><a href="#"><img src="assets/images/google.png" alt="google"></a></li>
+
+              </ul>
+            </div>
+          </div>
         </div>
       </section>
     </main>
